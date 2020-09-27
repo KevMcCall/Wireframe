@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+  /* adds background image to div class */
   .banner-image {
     background-image: url("images/food-background.jpg");
     height: 60%;
@@ -12,28 +12,63 @@ body, html {
     background-size: cover;
     position: relative;
   }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+
+.midbanner {
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+/* Background color to topnav */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
   }
   
-  .hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: black;
+  /* Style links inside the nav bar */
+  .topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 180px;
+  }
+  
+  /* changes color of links on hover */
+  .topnav a:hover {
     background-color: #ddd;
-    text-align: center;
-    cursor: pointer;
+    color: black;
   }
   
-  .hero-text button:hover {
-    background-color: #555;
+  /* add color to active link */
+  .topnav a.active {
+    background-color: #4CAF50;
     color: white;
   }
+/* center ul */
+.topnav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0; 
+}
+
+/* keeps li items next to each other */
+.topnav li {
+    display: inline-block;
+}
+
+/* centers events id */
+#events {
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
