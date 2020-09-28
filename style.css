@@ -121,4 +121,45 @@ body {
   display: flex;
 }
 
+.site-footer {
+  background-color:#a3481b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color: #000000;
+ text-decoration:none;
+ 
+}
+
+.site-footer h6 {
+  color: #000000;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a {
+  color:#737373;
+}
+
+.site-footer a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
+  
+  
+.footer-links li {
+display:block;
+}
+
+.footer-links a {
+  color: #000000;
+}  
+  
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+  color:#3366cc;
+  text-decoration:none;
+}
 
