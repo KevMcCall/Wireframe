@@ -82,6 +82,7 @@ body {
     padding-bottom: 100px;
     padding-top: 20px;
     background-color: #a3481b;
+    border: solid #000000;
 }
 
 * {
@@ -98,9 +99,9 @@ body {
   max-height: 100%;
   padding: 10px;
   background-color: #556b2f;
-  
-
+  border-left: solid #000000;
 }
+
 
 .row:after {
   clear: both;
@@ -115,6 +116,7 @@ body {
 .col-container {
   width: 100%;
   height: 100%;
+  
 }
 
 .row {
@@ -122,6 +124,7 @@ body {
 }
 
 .site-footer {
+  border: solid #000000;
   background-color:#a3481b;
   padding:45px 0 20px;
   font-size:15px;
@@ -136,7 +139,12 @@ body {
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
+  margin-left: 15px;
   letter-spacing:2px
+}
+
+.site-footer p {
+  margin-left: 15px;
 }
 
 .site-footer a {
@@ -162,4 +170,5 @@ display:block;
   color:#3366cc;
   text-decoration:none;
 }
+
 
