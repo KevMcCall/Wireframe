@@ -9,6 +9,7 @@ body {
 }
   /* adds background image to div class */
   .banner-image {
+    padding-top: 10px;
     background-image: url("images/food-background.jpg");
     height: 60%;
     background-position: center;
@@ -19,7 +20,10 @@ body {
 
   .storename {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 28x;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    font-size: 55px;
   }
 
 .midbanner {
@@ -94,6 +98,7 @@ body {
   padding: 10px;
   background-color: #556b2f;
   display: table-cell;
+
 }
 
 .row:after {
@@ -111,3 +116,5 @@ body {
   display: table;
   width: 100%;
 }
+
+
